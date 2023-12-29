@@ -14,7 +14,7 @@ body {
 }
 
 *:focus {
-  outline: 2px dotted #DE2E54;
+  /* outline: 2px dotted #DE2E54; */
   outline-offset: 2px;
 }
 
@@ -60,6 +60,7 @@ body {
 
 .site-logo-img {
   margin-right: 16px;
+  border-radius: 50%;
 }
 
 .site-logo-text {
@@ -119,6 +120,41 @@ body {
 
 .main-link:active {
   background-color: #DE2E54;
+  color: #fff;
+  opacity: 0.6;
+}
+
+
+/* SITE FOOTER */
+.site-footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #222;
+}
+
+.site-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer-logo-text {
+  color: #fff;
+}
+
+.site-footer-logo-text:hover{
+  color: #DE2E54;
+}
+
+.site-footer-logo-text:active{
+  color: #fff;
+}
+
+.site-footer-link {
+  color: #fff;
+}
+
+.site-footer-link:active {
   color: #fff;
   opacity: 0.6;
 }
